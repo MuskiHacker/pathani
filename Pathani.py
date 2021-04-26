@@ -31,7 +31,7 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;92mWelcome My Tool                       \n\x1b[1;92m\xe2\x9e\xa3        {} {} {} {}{}{} {}{}{}\N\x1b[1;93m\xe2\x9e\xa3        {} {} {}  {}    {}\n\x1b[1;94m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;96m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;97m\xe2\x9e\xa3         {} {} {}  {}    {}    {}\n\x1b[1;96m\xe2\x9e\xa3       {}{}   {}    {} .   {}\n\x1b[1;96m                \n\x1b[1;96m                      \n\x1b[1;92m        PATHANI            \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : KING x QUEEN\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/AK-KiNg-60\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923133828778\n\x1b[1;91m-----------------------------------------------'
+logo = '\n\x1b[1;92mWelcome My Tool                       \n\x1b[1;92m\xe2\x9e\xa3        XTYLISH PATHANI\N\x1b[1;93m\xe2\x9e\xa3        XTYLISH PATHANI\n\x1b[1;94m\xe2\x9e\xa3         XTYLISH PATHANI\n\x1b[1;96m\xe2\x9e\xa3         XTYLISH PATHANI\n\x1b[1;97m\xe2\x9e\xa3         XTYLISH PATHANI\n\x1b[1;96m\xe2\x9e\xa3       XTYLISH PATHANI\n\x1b[1;96m                \n\x1b[1;96m                      \n\x1b[1;92m        PATHANI            \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : XTYLISH PATHANI\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/pathani404\n\x1b[1;97m\xe2\x9e\xa3 Queen: TFG Owner\n\x1b[1;91m-----------------------------------------------'
 
 def reg():
     os.system('clear')
@@ -126,7 +126,7 @@ def log_menu():
 
 
 def log_menu_s():
-    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Jutt\xe2\x9e\xa4 ')
+    s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Muski\xe2\x9e\xa4 ')
     if s == '1':
         log_fb()
     elif s == '2':
@@ -275,7 +275,7 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80jutt\xe2\x9e\xa4 ')
+    ms = raw_input('\x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Muski\xe2\x9e\xa4 ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
@@ -345,7 +345,7 @@ def a_s():
     id = []
     cps = []
     oks = []
-    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80King\xe2\x9e\xa4 ')
+    a_s = raw_input(' \x1b[1;97m\xe2\x95\xb0\xe2\x94\x80Muski\xe2\x9e\xa4 ')
     if a_s == '1':
         os.system('clear')
         print logo
@@ -432,7 +432,7 @@ def a_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mKing Of Fb Feel\x1b[1;91m'
+    print '\t\x1b[1;94mQueen Of Fb Xtylish Pathani\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
