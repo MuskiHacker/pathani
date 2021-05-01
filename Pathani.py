@@ -762,7 +762,7 @@ def c_s():
     print ' \x1b[1;97m~~~ Crack Running ~~~\x1b[1;91m'
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mKing Of Fb Feel\x1b[1;91m'
+    print '\t\x1b[1;94mFb Queen PATHANI\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
